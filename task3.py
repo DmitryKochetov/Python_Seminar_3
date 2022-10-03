@@ -4,11 +4,11 @@
 
 # - [1.1, 1.2, 3.1, 5, 10.01] => 0.19
 
-list = [1.1, 1.2, 3.1, 5, 10.01]
+list_1 = [1.1, 1.2, 3.1, 5, 10.01]
 fractional_list = []
 result = 0
 
-for i in list:
+for i in list_1:
     if i != 0:
         fractional_list.append(round(i % 1, 5))
 

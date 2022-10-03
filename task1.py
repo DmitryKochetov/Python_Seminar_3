@@ -5,13 +5,13 @@
 
 # - [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 
-list = [2, 3, 5, 9, 3]
+list_1 = [2, 3, 5, 9, 3]
 odd_list = []
 
 result = 0
 
-for i in range(1, len(list),2):
-    result += list[i]
-    odd_list.append(list[i])
+for i in range(1, len(list_1),2):
+    result += list_1[i]
+    odd_list.append(list_1[i])
    
-print(f'{list} -> на нечетных позициях элементы {odd_list[0]} и {odd_list[1]}, ответ: {result}')
+print(f'{list_1} -> на нечетных позициях элементы {odd_list[0]} и {odd_list[1]}, ответ: {result}')
