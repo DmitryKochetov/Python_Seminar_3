@@ -19,7 +19,6 @@ def nega_fib(n):
         return nega_fib(n + 2) - nega_fib(n + 1)
 
 
-
 def fib(n):
     if n == 0:
         return 0
